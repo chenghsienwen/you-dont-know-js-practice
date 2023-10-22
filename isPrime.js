@@ -30,6 +30,8 @@ function factorize(v) {
 
 console.log(isPrime(11));        // true
 console.log(isPrime(4327));        // false
+console.log(isPrime(12));        // false
 
 console.log(factorize(11));      // [ 11 ]
-console.log(factorize(4327));      // [ 3, 2, 2 ] --> 3*2*2=12
+console.log(factorize(4327));      // [ 4327]
+console.log(factorize(12));      // [ 3, 2, 2 ] --> 3*2*2=12
